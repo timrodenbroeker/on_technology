@@ -1,0 +1,64 @@
+{{ define "main" }}
+
+
+
+  </header>
+
+    <section id="theContent">
+
+    <h1 class="title p-top-15 text-center" style="margin: 75px 0 30px 0 ; font-size: calc(16px + 8vw);">{{ .Title }}</h1>
+
+    <div class="tip text-center">
+        <time datetime="{{ .PublishDate }}">{{ i18n "publishDateFull" . }}</time>
+        <span class="split">
+          ·
+        </span>
+        <span>
+          {{ i18n "wordCount" . }}
+        </span>
+        <span class="split">
+          ·
+        </span>
+        <span>
+          {{ i18n "minuteRead" . }}
+        </span>
+    </div>
+
+    <section id="single" style="margin-top: 75px;">
+      <div id="single-grid">
+        <div>
+        <div style="position: sticky; top:0;" id="toc">
+          {{ .TableOfContents }}
+        
+          {{ if or .Site.Params.showToc .Params.showToc }}
+              {{ partial "toc.html" . }}
+          {{ end }}
+        
+        </div>
+      </div>
+
+        <div class="content" style="padding-top:75px;">
+          {{ .Content }}
+        </div>
+
+    </div> 
+
+    {{ with .Params.tags }}
+        <div class="tags">
+            {{ range . }}
+                <a href="{{ "tags/" | absURL }}{{ . | urlize }}">{{ . }}</a>
+            {{ end }}
+        </div>
+    {{ end}}
+    
+    {{ partial "comment.html" . }}
+   
+</section>
+
+
+</section>
+
+
+{{ end }}
+
+

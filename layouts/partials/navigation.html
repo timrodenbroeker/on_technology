@@ -1,0 +1,14 @@
+<nav class="navigation" style="background: blue;">
+
+	<div style="display: flex; justify-content: space-between;">
+		<div style="">
+	<a style="color: #ff0000; font-weight: bold;" href="/">{{.Site.Title}}</a>
+	</div>
+	<div>
+	{{ range $.Site.Data.nav }}
+		<a style="color: #aaaaaa; padding-left: 5px;" href="{{ .url }}">{{ .name }}</a>
+	{{ end }}
+</div>
+</div>
+
+</nav>

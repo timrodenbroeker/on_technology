@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on On Technology</title>
+    <link>http://example.org/posts/</link>
+    <description>Recent content in Posts on On Technology</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 20 Aug 2022 15:33:36 +0200</lastBuildDate><atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Übertechnologie</title>
+      <link>http://example.org/posts/ontechnology/</link>
+      <pubDate>Sat, 20 Aug 2022 15:33:36 +0200</pubDate>
+      
+      <guid>http://example.org/posts/ontechnology/</guid>
+      <description>Es ist ein ganz normaler Samstag im Sommer, an dem ich meine Wohnung in Ordnung bringe. Wie fast jedes Mal nehme ich dabei die schwere Kiste aus dem Schrank, in der viele elektronische Geräte lagern, die der technische Fortschritt inzwischen überholt und damit scheinbar wertlos gemacht hat. Sofort fällt mir der iPod nano auf, den ich um 2005 so sehr geliebt habe. Als Anfang Zwanzigjähriger kam dieser winzig kleine mp3-Player in mein Leben und veränderte fundamental, wie ich über Musik als Medium nachdachte.</description>
+    </item>
+    
+    <item>
+      <title>Quotes</title>
+      <link>http://example.org/posts/quotes/</link>
+      <pubDate>Sat, 06 Aug 2022 12:28:16 +0200</pubDate>
+      
+      <guid>http://example.org/posts/quotes/</guid>
+      <description>Computation is made by us and we are now collectively responsible for its outcomes.
+ John Maeda</description>
+    </item>
+    
+  </channel>
+</rss>

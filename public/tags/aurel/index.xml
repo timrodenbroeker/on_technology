@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>aurel on Reflektionen</title>
+    <link>http://example.org/tags/aurel/</link>
+    <description>Recent content in aurel on Reflektionen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 05 Aug 2022 16:42:15 +0200</lastBuildDate><atom:link href="http://example.org/tags/aurel/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Annotationen zu Mark Aurels Selbstbetrachtungen</title>
+      <link>http://example.org/posts/2022-selbstbetrachtungen/</link>
+      <pubDate>Fri, 05 Aug 2022 16:42:15 +0200</pubDate>
+      
+      <guid>http://example.org/posts/2022-selbstbetrachtungen/</guid>
+      <description>Themen 🔗 Proaktivität Digitaler Minimalismus / Lowtech / Downgrade Open Source / Großzügigkeit / Contribution Vorurteile Verführung Ausdauer (im inizialen Lernprozess) Fokus / Am Anfang das Ende im Sinn haben Community  2.4 🔗 Denk daran, wie lange du das schon aufschiebst und wie oft du schon von den Göttern Termine gesetzt bekamst, die du ungenutzt verstreichen ließest.
+  Proaktivität?  2.7 🔗 Was lässt du dich von Äußerlichkeiten und Zufällen ablenken?</description>
+    </item>
+    
+  </channel>
+</rss>

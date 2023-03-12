@@ -1,0 +1,6 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'On Technology'
+paginate=100
+[markup.goldmark.renderer]
+unsafe= true

@@ -1,0 +1,18 @@
+[
+    {
+        "url": "/pages/about",
+        "name": "About"
+    },
+    {
+        "url": "/tags",
+        "name": "Tags"
+    },
+    {
+        "url": "/quotes",
+        "name": "Quotes"
+    },
+    {
+        "url": "/pages/methodik",
+        "name": "Methodik"
+    }
+]
