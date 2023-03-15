@@ -1,39 +1,37 @@
 {{ define "main" }}
 
-    <style>
+<style>
+  .quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin: 0 15px 15px 0;
+    margin-bottom: 50px;
+  }
 
-        .container {
-        max-width: 900px;
-        width: 100%;
-        margin: 0 auto;
-        }
-        #quoteList ul {
-            padding: 0;
-            list-style: none;
-        }
+  .qoute p {
+    margin-bottom: 0px;
+  }
 
-        .quote {
-            padding: 10px;
-            background: #f1f1f1;
-            margin-bottom: 20px;
-        }
-    </style>
+  .container {
+    width: 100%;
+    max-width: 700px;
+    margin: 100px auto;
+  }
+</style>
 
-    <section id="quoteList" style="margin: 100px 0;">
-        <div class="container">
-            <ul>
-                {{ range $.Site.Data.quotes }}
-                    <li class="quote">
-                        <blockquote>
-                            <p>
-                                {{ .quote }}
-                            </p>
-                        </blockquote>
-                        <p> {{ .source }}</p>
-                    </li>
-                {{ end }}
-            </ul>
-        </div>
-    </section>
+<section>
+  <div class="container">
+    {{ range $.Site.Data.quotes }}
+    <div class="quote">
+      <blockquote>
+        <p style="font-size: 25px">"{{ .quote }}"</p>
+      </blockquote>
+      <p class="text-mono" style="margin: 0">{{ .source }}</p>
+    </div>
+    {{ end }}
+  </div>
+</section>
 
 {{end}}

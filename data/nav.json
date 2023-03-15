@@ -1,18 +1,33 @@
 [
     {
         "url": "/pages/about",
-        "name": "About"
-    },
-    {
-        "url": "/tags",
-        "name": "Tags"
+        "name": "About",
+        "target": ""
     },
     {
         "url": "/quotes",
-        "name": "Quotes"
+        "name": "Quotes",
+        "target": ""
     },
     {
-        "url": "/pages/methodik",
-        "name": "Methodik"
+        "url": "/glossary",
+        "name": "Glossary",
+        "target": ""
+    },
+    {
+        "url": "/links",
+        "name": "Links",
+        "target": ""
+    },
+    {
+        "url": "/pages/manual",
+        "name": "Manual",
+        "target": ""
+    },
+    {
+        "url": "https://www.patreon.com/timrodenbroeker",
+        "name": "Patreon",
+        "target": "_blank",
+        "style": "color: red;"
     }
 ]

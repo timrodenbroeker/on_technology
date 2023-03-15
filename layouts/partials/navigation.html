@@ -1,14 +1,16 @@
-<nav class="navigation" style="background: blue;">
+{{ $curr := .Page.RelPermalink }}
 
-	<div style="display: flex; justify-content: space-between;">
-		<div style="">
-	<a style="color: #ff0000; font-weight: bold;" href="/">{{.Site.Title}}</a>
-	</div>
-	<div>
-	{{ range $.Site.Data.nav }}
-		<a style="color: #aaaaaa; padding-left: 5px;" href="{{ .url }}">{{ .name }}</a>
-	{{ end }}
-</div>
-</div>
-
+<nav id="main">
+  <a id="logo" href="/">{{.Site.Title}}</a>
+  <div id="nav-items">
+    {{ range $.Site.Data.nav }}
+    <a
+      class="{{ if in $curr .url }}active{{ end }}"
+      href="{{ .url }}"
+      target="{{ .target }}"
+      style="{{ .style }}"
+      >{{ .name }}</a
+    >
+    {{ end }}
+  </div>
 </nav>

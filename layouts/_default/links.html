@@ -1,0 +1,33 @@
+{{ define "main" }}
+
+<style>
+  .container {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  #quoteList ul {
+    padding: 0;
+    list-style: none;
+  }
+
+  .quote {
+    padding: 10px;
+    background: #f1f1f1;
+    margin-bottom: 20px;
+  }
+</style>
+
+<section id="quoteList" style="margin: 100px 0">
+  <div class="container">
+    <ul>
+      {{ range $.Site.Data.links }}
+      <li>
+        <a target="_blank" href="{{ .href }}">{{ .title }}</a>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+</section>
+
+{{end}}

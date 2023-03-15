@@ -10,3 +10,5 @@ featured_image: /images/placeholder.png
 > Computation is made by us and we are now collectively responsible for its outcomes.
 
 John Maeda
+
+{{% pullquote %}}Stuff to `process` in the _center_.{{% /pullquote %}}

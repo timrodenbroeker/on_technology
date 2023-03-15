@@ -1,6 +1,8 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'On Technology'
-paginate=100
+buildDrafts = true
+paginate = 100
+summaryLength = 10
 [markup.goldmark.renderer]
-unsafe= true
+unsafe = true

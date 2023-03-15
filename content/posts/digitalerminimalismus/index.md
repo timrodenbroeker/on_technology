@@ -9,3 +9,7 @@ featured_image: /images/punkt.jpg
 
 <img src="/images/ipod.jpg">
 <img src="/images/punkt.jpg">
+
+- https://freedom.to/
+- https://www.punkt.ch/de/
+- Frugales Design
