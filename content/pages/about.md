@@ -11,3 +11,5 @@ thumb: "placeholder.png"
 - Labor
 - Schreibwerkstatt
 
+- Subjektperspektive
+- 

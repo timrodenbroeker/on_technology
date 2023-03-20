@@ -1,5 +1,5 @@
 ---
-title: "The new Demossscene -  Creative Coding in the realms of Motion Design"
+title: "The new Demossscene"
 date: 2022-10-01T20:43:37+02:00
 tags:
 categories:

@@ -3,22 +3,38 @@
   header {
   width: 100%;
   height: 70vh;
-  background: blue;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
 }
 
 header h1 {
 
   font-size: calc(16px + 8vw);
   color: white;
+  z-index: 9;
+}
+
+#foil {
+  background: black;
+  opacity: 0.4;
+  top:0;
+  left:0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
 
 </style>
 
-<header>
+<header style="background-image: url({{ .Params.featured_image }})">
+  <div id="foil"></div>
   <h1 class="p-top-15 text-center">{{ .Title }}</h1>
+  
 </header>
   
 

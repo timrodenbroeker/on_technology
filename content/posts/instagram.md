@@ -4,7 +4,7 @@ date: 2022-08-23T09:19:39+02:00
 tags:
 categories:
 draft: true
-featured_image: /images/placeholder.png
+featured_image: /images/informationflood.gif
 ---
 Trapped by Social Media
 

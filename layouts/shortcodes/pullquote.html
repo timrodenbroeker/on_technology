@@ -1,3 +1,4 @@
-<blockquote style="background: red">
+<blockquote style="margin: 50px 0;">
   <p>{{- .Inner | safeHTML }}</p>
+  <p class="text-mono">{{ .Get "source" }}</p>
 </blockquote>

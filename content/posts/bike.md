@@ -1,8 +1,11 @@
 ---
-title: "Chindogu"
+title: "Bike"
 date: 2022-08-23T08:59:03+02:00
-tags: [lowtech, bikepacking]
+tags: [lowtech,bikepacking]
 categories:
 draft: true
 featured_image: /images/cologne-paris.jpg
 ---
+
+- Frugales Design
+tfgzhjnhbgvfcdgvbhnbgvf

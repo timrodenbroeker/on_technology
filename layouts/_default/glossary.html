@@ -18,18 +18,21 @@
   }
 </style>
 
-<section id="quoteList" style="margin: 100px 0">
+<section id="glossary" class="m-top-100">
   <div class="container">
-    <ul>
+    <h2>aaaa</h2>
+    <table>
       {{ range $.Site.Data.glossary }}
-      <li class="quote">
-        <blockquote>
-          <p>{{ .term }}</p>
-        </blockquote>
-        <p>{{ .desc }}</p>
-      </li>
+      <tr>
+        <td>
+          {{ .term }}
+        </td>
+        <td>
+          {{ .desc }}
+        </td>
+      </tr>
       {{ end }}
-    </ul>
+    </table>
   </div>
 </section>
 
